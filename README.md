@@ -1,5 +1,7 @@
 # DocQA — Intelligent Multilingual Document Question-Answering
 
+**Author:** Salman Mugharbel — Systems of Artificial Intelligence, RK2 project
+
 Upload documents in **English, Arabic or Russian**, ask questions in any of these
 languages, and get answers generated only from the document text, with
 **clickable page references** and **document summaries**. Everything runs locally.

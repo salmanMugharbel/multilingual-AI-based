@@ -1,0 +1,29 @@
+# Models are too large for GitHub (~470 MB each) - rebuild them with the training scripts
+models/
+
+# Frontend dependencies and build output (npm install / npm run build)
+frontend/node_modules/
+frontend/dist/
+
+# Uploaded documents and vector index created at run time
+backend/storage/
+
+# Downloaded / generated datasets (python training/prepare_data.py) - statistics are kept
+training/data/*
+!training/data/stats.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Unrelated folder
+esp32/
+
+# Editor / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
+~$*

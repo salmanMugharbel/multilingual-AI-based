@@ -1,0 +1,42 @@
+{
+  "available_pool": {
+    "en": {
+      "tydiqa": 3673,
+      "squad": 37467
+    },
+    "ar": {
+      "tydiqa": 12964,
+      "arcd": 462
+    },
+    "ru": {
+      "tydiqa": 6318
+    }
+  },
+  "train_size": 15000,
+  "dev_size": 600,
+  "train_by_lang": {
+    "ar": 5000,
+    "ru": 5000,
+    "en": 5000
+  },
+  "train_by_source": {
+    "tydiqa": 13530,
+    "squad": 1470
+  },
+  "avg_query_chars": 39.8,
+  "avg_passage_chars": 578.7,
+  "xquad": {
+    "en": {
+      "questions": 1190,
+      "contexts": 240
+    },
+    "ar": {
+      "questions": 1190,
+      "contexts": 240
+    },
+    "ru": {
+      "questions": 1190,
+      "contexts": 240
+    }
+  }
+}

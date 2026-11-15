@@ -1,0 +1,187 @@
+{
+  "uploads": [
+    {
+      "id": "5896409fd6bf",
+      "filename": "solar_energy_en.pdf",
+      "ext": ".pdf",
+      "pages": 3,
+      "sections": 3,
+      "chunks": 3,
+      "language": "en",
+      "languages": {
+        "en": 3
+      },
+      "words": 206,
+      "uploaded_at": 1794531266.2835345,
+      "summaries": {},
+      "processing_seconds": 0.88
+    },
+    {
+      "id": "5f2d125ce407",
+      "filename": "moscow_metro_ru.pdf",
+      "ext": ".pdf",
+      "pages": 3,
+      "sections": 3,
+      "chunks": 3,
+      "language": "ru",
+      "languages": {
+        "ru": 3
+      },
+      "words": 121,
+      "uploaded_at": 1794531267.0749407,
+      "summaries": {},
+      "processing_seconds": 0.25
+    },
+    {
+      "id": "db9b94b2f486",
+      "filename": "ai_ar.pdf",
+      "ext": ".pdf",
+      "pages": 3,
+      "sections": 3,
+      "chunks": 3,
+      "language": "ar",
+      "languages": {
+        "ar": 3
+      },
+      "words": 131,
+      "uploaded_at": 1794531267.289816,
+      "summaries": {},
+      "processing_seconds": 0.28
+    }
+  ],
+  "qa": [
+    {
+      "pair": "EN→EN",
+      "question": "What efficiency do commercial silicon solar panels reach?",
+      "answer": "[1] Commercial silicon solar panels reach an efficiency of about 20 to 23 percent.",
+      "errors": [],
+      "detected_lang": "en",
+      "retrieval_ms": 39,
+      "total_s": 73.0,
+      "top_source": {
+        "filename": "solar_energy_en.pdf",
+        "page": 2,
+        "score": 0.873
+      },
+      "expected": {
+        "filename": "solar_energy_en.pdf",
+        "page": 2
+      },
+      "retrieval_correct": true
+    },
+    {
+      "pair": "RU→RU",
+      "question": "Когда был открыт Московский метрополитен?",
+      "answer": "Московский метрополитен был открыт 15 мая 1935 года, как сказано в [1].",
+      "errors": [],
+      "detected_lang": "ru",
+      "retrieval_ms": 489,
+      "total_s": 96.8,
+      "top_source": {
+        "filename": "moscow_metro_ru.pdf",
+        "page": 1,
+        "score": 0.924
+      },
+      "expected": {
+        "filename": "moscow_metro_ru.pdf",
+        "page": 1
+      },
+      "retrieval_correct": true
+    },
+    {
+      "pair": "AR→AR",
+      "question": "من صاغ مصطلح الذكاء الاصطناعي ومتى؟",
+      "answer": "جون مكارثي صاغ مصطلح الذكاء الاصطناعي في عام 1956. [1]",
+      "errors": [],
+      "detected_lang": "ar",
+      "retrieval_ms": 495,
+      "total_s": 96.4,
+      "top_source": {
+        "filename": "ai_ar.pdf",
+        "page": 1,
+        "score": 0.883
+      },
+      "expected": {
+        "filename": "ai_ar.pdf",
+        "page": 1
+      },
+      "retrieval_correct": true
+    },
+    {
+      "pair": "EN→RU",
+      "question": "Which metro station won a prize at the 1939 World's Fair in New York?",
+      "answer": "The metro station that won a prize at the 1939 World's Fair in New York was \"Маяковская\". [1]",
+      "errors": [],
+      "detected_lang": "en",
+      "retrieval_ms": 472,
+      "total_s": 91.0,
+      "top_source": {
+        "filename": "moscow_metro_ru.pdf",
+        "page": 2,
+        "score": 0.691
+      },
+      "expected": {
+        "filename": "moscow_metro_ru.pdf",
+        "page": 2
+      },
+      "retrieval_correct": true
+    },
+    {
+      "pair": "AR→EN",
+      "question": "كم انخفضت تكلفة الألواح الشمسية بين عامي 2010 و2020؟",
+      "answer": "وفقاً لل passage [1] ، انخفضت تكلفة الألواح الشمسية بنسبة تقدر بحوالي 90% بين عامي 2010 و2020، وذلك بسبب الإنتاج بالكمية، تحسينات في الإنتاج، و economies of scale.",
+      "errors": [],
+      "detected_lang": "ar",
+      "retrieval_ms": 489,
+      "total_s": 213.6,
+      "top_source": {
+        "filename": "solar_energy_en.pdf",
+        "page": 2,
+        "score": 0.732
+      },
+      "expected": {
+        "filename": "solar_energy_en.pdf",
+        "page": 2
+      },
+      "retrieval_correct": true
+    },
+    {
+      "pair": "RU→AR",
+      "question": "Почему арабский язык сложен для обработки?",
+      "answer": "Арабский язык сложен для обработки из-за богатого склонения и большого количества производных слов [1].",
+      "errors": [],
+      "detected_lang": "ru",
+      "retrieval_ms": 467,
+      "total_s": 110.2,
+      "top_source": {
+        "filename": "ai_ar.pdf",
+        "page": 3,
+        "score": 0.699
+      },
+      "expected": {
+        "filename": "ai_ar.pdf",
+        "page": 3
+      },
+      "retrieval_correct": true
+    },
+    {
+      "pair": "EN→none",
+      "question": "What is the population of Australia?",
+      "answer": "I could not find relevant information in the uploaded documents.",
+      "errors": [],
+      "detected_lang": "en",
+      "retrieval_ms": 438,
+      "total_s": 0.6,
+      "top_source": null,
+      "expected": null,
+      "retrieval_correct": true
+    }
+  ],
+  "summary": {
+    "doc": "solar_energy_en.pdf",
+    "lang": "en",
+    "text": "Solar Energy: An Overview\nSolar energy harnesses the radiant light and heat from the Sun using technologies like photovoltaic (PV) panels and solar thermal collectors. It is one of the fastest-growing sources of renewable electricity. Photovoltaic cells convert sunlight into electricity through the photovoltaic effect, first observed by Edmond Becquerel in 1839. Commercial silicon panels have an efficiency of about 20 to 23 percent, while laboratory cells can exceed 45 percent. The cost of solar modules has fallen by roughly 90 percent between 2010 and 2020 due to mass production, improved manufacturing, and economies of scale. The main challenges of solar power include intermittency, where panels produce no electricity at night and less on cloudy days, and land use for large solar farms. Battery storage systems and rooftop installations, as well as agrivoltaics, help mitigate these issues.",
+    "seconds": 617.5
+  },
+  "llm": "qwen2.5:3b"
+}

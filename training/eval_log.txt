@@ -1,0 +1,30 @@
+﻿python.exe : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher 
+rate limits and faster downloads.
+At line:1 char:622
++ ... S_BARS="1"; & "$env:USERPROFILE\.venvs\rk2\Scripts\python.exe" evalua ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+== base: intfloat/multilingual-e5-small
+  en->en: R@1=0.939  R@5=0.997  MRR@10=0.963
+  en->ar: R@1=0.780  R@5=0.955  MRR@10=0.858
+  en->ru: R@1=0.816  R@5=0.968  MRR@10=0.884
+  ar->en: R@1=0.666  R@5=0.912  MRR@10=0.769
+  ar->ar: R@1=0.876  R@5=0.971  MRR@10=0.919
+  ar->ru: R@1=0.660  R@5=0.900  MRR@10=0.762
+  ru->en: R@1=0.800  R@5=0.963  MRR@10=0.874
+  ru->ar: R@1=0.741  R@5=0.930  MRR@10=0.823
+  ru->ru: R@1=0.898  R@5=0.987  MRR@10=0.937
+== fine_tuned: C:\Users\Salman Mugharbel\OneDrive\Desktop\universty\Systems of Artificial Intelligence\RK2\models\e5-small-multiqa
+  en->en: R@1=0.876  R@5=0.984  MRR@10=0.925
+  en->ar: R@1=0.726  R@5=0.939  MRR@10=0.819
+  en->ru: R@1=0.776  R@5=0.955  MRR@10=0.855
+  ar->en: R@1=0.670  R@5=0.913  MRR@10=0.772
+  ar->ar: R@1=0.775  R@5=0.950  MRR@10=0.849
+  ar->ru: R@1=0.633  R@5=0.887  MRR@10=0.739
+  ru->en: R@1=0.760  R@5=0.944  MRR@10=0.839
+  ru->ar: R@1=0.666  R@5=0.908  MRR@10=0.770
+  ru->ru: R@1=0.815  R@5=0.967  MRR@10=0.881
+
+Average: {'base': {'R@1': 0.7973856209150327, 'R@5': 0.953688141923436, 'MRR@10': 0.8654843789367599}, 'fine_tuned': {'R@1': 0.7441643323996264, 'R@5': 0.938655462184874, 'MRR@10': 0.8276606198034769}}

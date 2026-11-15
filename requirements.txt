@@ -1,0 +1,16 @@
+# Install CPU PyTorch first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+numpy
+sentence-transformers
+datasets
+accelerate
+faiss-cpu
+fastapi
+uvicorn[standard]
+python-multipart
+pymupdf
+python-docx
+langdetect
+httpx
+matplotlib
+pandas
